@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import CounterReducer from "../slices/counter-slice/counterSlice";
+import CounterReducer from "../slices/counter/counterSlice";
+import habitsReducer from "../slices/habits/habitSlice";
 export const store = configureStore({
   reducer: {
     counter: CounterReducer,
+    habits: habitsReducer,
   },
 
 });

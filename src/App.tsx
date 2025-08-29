@@ -2,7 +2,7 @@ import reactLogo from './assets/redux.svg'
 import './App.css'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
-import { increment, decrement, incrementByAmount } from './redux/slices/counter-slice/counterSlice'
+import { increment, decrement, incrementByAmount } from './redux/slices/counter/counterSlice'
 import type { RootState } from './redux/store/store'
 
 function App() {
